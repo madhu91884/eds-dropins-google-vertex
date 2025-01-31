@@ -1,0 +1,78 @@
+{
+  "name": "projects/corded-rope-448407-u6/locations/global/catalogs/default_catalog",
+  "displayName": "Default Catalog",
+  "productLevelConfig": {
+    "ingestionProductType": "primary",
+    "merchantCenterProductIdField": "id"
+  },
+  "merchantCenterLinkingConfig": {
+    "linkedMerchantCenterAccounts": [
+      {
+        "merchantId": "123456789",
+        "branchId": "0",
+        "destinationConfigs": [
+          {
+            "destination": "Shopping ads",
+            "regionCode": "US"
+          }
+        ]
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "24-UG01",
+      "title": "Quest Lumaflex™ Band",
+      "description": "A casual shirt for a casual day",
+      "categories": ["Gear"],
+      "priceInfo": {
+        "currencyCode": "USD",
+        "price": 19.99
+      },
+      "uri": "http://mcstaging.aemshop.net/quest-lumaflex-trade-band.html",
+      "images": [
+        {
+          "uri": "//mcstaging.aemshop.net/media/catalog/product/u/g/ug01-bk-0.jpg",
+          "height": 320,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "id": "24-MG05",
+      "title": "Cruise Dual Analog Watch",
+      "description": "Stylish and durable analog watch",
+      "categories": ["Gear"],
+      "priceInfo": {
+        "currencyCode": "USD",
+        "price": 55.00
+      },
+      "uri": "http://mcstaging.aemshop.net/cruise-dual-analog-watch.html",
+      "images": [
+        {
+          "uri": "//mcstaging.aemshop.net/media/catalog/product/m/g/mg05-br-0.jpg",
+          "height": 320,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "id": "24-HM01",
+      "title": "Men’s Sports Hoodie",
+      "description": "Comfortable hoodie for everyday wear",
+      "categories": ["Apparel"],
+      "priceInfo": {
+        "currencyCode": "USD",
+        "price": 39.99
+      },
+      "uri": "http://mcstaging.aemshop.net/mens-sports-hoodie.html",
+      "images": [
+        {
+          "uri": "//mcstaging.aemshop.net/media/catalog/product/h/m/hm01-hoodie-0.jpg",
+          "height": 320,
+          "width": 320
+        }
+      ]
+    }
+  ]
+}
